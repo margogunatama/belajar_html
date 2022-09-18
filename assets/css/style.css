@@ -98,7 +98,6 @@
     /* margin-left: 22%; */
 }
 
-
 .testimonial .wrap-arrow {
     margin: auto;
     display: flex;
@@ -112,17 +111,25 @@
     border-radius: 50%;
 }
 
-.testimonial .wrap-arrow div:first-child {
+.testimonial .wrap-arrow #prev {
     border: 1px solid #c4c4c4;
     margin-right: 37.5px;
 }
 
-.testimonial .wrap-arrow div:last-child {
+.testimonial .wrap-arrow #next {
     background-color: #5CB85F;
+    border: 1px solid #c4c4c4;
 }
 
 .testimonial .wrap-arrow div img {
     display: block;
     margin: auto;
     margin-top: 10px;
+}
+
+
+@media screen and (max-width: 500px){
+    header {
+        padding-left: 16px;
+    }
 }
