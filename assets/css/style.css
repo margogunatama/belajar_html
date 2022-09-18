@@ -23,13 +23,13 @@
     margin-top: 24px;
 }
 
-#buttonCarouselPrevNext {
+/* #buttonCarouselPrevNext {
     color: #5CB85F;
     border-radius: 50%;
     margin-top: 30px;
     justify-content: center;
     padding-left: 45%;
-}
+} */
 
 #kotakWhy {
     border: 1px solid #D0D0D0;
@@ -48,7 +48,9 @@
 }
 
 #lokasiMobil{
-    margin-left: 60px;
+    /* justify-content: center; */
+    /* margin-left: 10%; */
+    margin-left: 64px;
 }
 
 #faq-col{
@@ -69,8 +71,8 @@
 
 #carouselControls{
     /* border: 1px solid #D0D0D0; */
-    border-color:#F1F3FF;
-    border-radius: 8px;
+    /* border-color:#F1F3FF; */
+    /* border-radius: 8px; */
     margin-top: 40px;
     padding-top: 10px;
     padding-left: 180px;
@@ -92,5 +94,35 @@
 
 #lokasiMobilWanita{
     margin-top: 40px;
-    margin-left: 64px;
+    justify-content: center;
+    /* margin-left: 22%; */
+}
+
+
+.testimonial .wrap-arrow {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.testimonial .wrap-arrow div {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.testimonial .wrap-arrow div:first-child {
+    border: 1px solid #c4c4c4;
+    margin-right: 37.5px;
+}
+
+.testimonial .wrap-arrow div:last-child {
+    background-color: #5CB85F;
+}
+
+.testimonial .wrap-arrow div img {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
 }
