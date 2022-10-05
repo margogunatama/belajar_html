@@ -1,0 +1,13 @@
+{
+  "name": "margo",
+  "version": "1.0.0",
+  "description": "belajar js",
+  "main": "index.js",
+  "repository": "https://github.com/margogunatama/belajar_html.git",
+  "author": "Margo G <mgunatama@bankbjb.co.id>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
